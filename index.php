@@ -5,76 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/custom-css/style.css">
 </head>
 <body>
     
+<nav class="navbar navbar-expand-lg bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
 
-<div class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark">
-      <div class="container">
-        <a href="../" class="navbar-brand">Bootswatch</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav">
-            
-              
-            <li class="nav-item">
-              <a class="nav-link" href="../help/">Help</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://blog.bootswatch.com/">Blog</a>
-            </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Zephyr</a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a class="dropdown-item" rel="noopener" target="_blank" href="https://jsfiddle.net/bootswatch/5n3yLr7u/">Open in JSFiddle</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../5/zephyr/bootstrap.css" download="">bootstrap.css</a>
-                <a class="dropdown-item" href="../5/zephyr/bootstrap.min.css" download="">bootstrap.min.css</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../5/zephyr/bootstrap.rtl.css" download="">bootstrap.rtl.css</a>
-                <a class="dropdown-item" href="../5/zephyr/bootstrap.rtl.min.css" download="">bootstrap.rtl.min.css</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../5/zephyr/_variables.scss" download="">_variables.scss</a>
-                <a class="dropdown-item" href="../5/zephyr/_bootswatch.scss" download="">_bootswatch.scss</a>
-              </div>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-md-auto">
-            <li class="nav-item">
-              <a target="_blank" rel="noopener" class="nav-link" href="https://github.com/thomaspark/bootswatch/"><i class="bi bi-github"></i><span class="d-lg-none ms-2">GitHub</span></a>
-            </li>
-            <li class="nav-item">
-              <a target="_blank" rel="noopener" class="nav-link" href="https://twitter.com/bootswatch"><i class="bi bi-twitter"></i><span class="d-lg-none ms-2">Twitter</span></a>
-            </li>
-            <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
-              <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
-              <hr class="d-lg-none my-2 text-white-50">
-            </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme">
-                <i class="bi bi-circle-half"></i>
-                <span class="d-lg-none ms-2">Toggle theme</span>
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li>
-                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-                    <i class="bi bi-sun-fill"></i><span class="ms-2">Light</span>
-                  </button>
-                </li>
-                <li>
-                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true">
-                    <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Dark</span>
-                  </button>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
     </div>
+
+
+
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
 
 
   <section class="vh-100">
